@@ -193,6 +193,7 @@ p {
 }
 .partner-btn {
   padding: 11px 59px;
+  width: 100vw;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 14px;
@@ -201,4 +202,15 @@ p {
   background-color: transparent;
   border: 3px solid #ff4e50;
   border-radius: 30px;
+}
+@media screen and (min-width:768px) {
+  .partner-btn {
+    padding: 13px 17px;
+    width: 195px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #ff4e50;    
+  }
 }
